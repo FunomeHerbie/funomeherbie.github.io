@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="navbar">
+                <div class="navbar-brand fs-2 fw-bold text-light">Herbie</div>
+                <div class="navlink fw-semibold d-none d-lg-flex">
+                    <ul class="navitem"><a href="#home">Dashboard</a></ul>
+                    <ul class="navitem"><a href="#about">About</a></ul>
+                    <ul class="navitem"><a href="#skils">Skils</a></ul>
+                    <ul class="navitem"><a href="#portfolio">portfolio</a></ul>
+                    <ul class="navitem"><a href="#contact">Contact</a></ul>
+                </div>
+            </div>
+            <div class="mobile link text-end fixed-top mt-3 me-3 d-block d-lg-none">
+                <button class="btn btn-outline-info" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                      </svg>
+                </button>
+
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                    aria-labelledby="offcanvasRightLabel">
+                    <div class="offcanvas-header">
+                        <h5 id="offcanvasRightLabel" class="fw-bold fs-3">Herbie</h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <div class="mobile-link fw-semibold text-start">
+                            <ul class="mobile-item"><a href="#home">Dashboard</a></ul>
+                            <ul class="mobile-item"><a href="#about">About</a></ul>
+                            <ul class="mobile-item"><a href="#skils">Skils</a></ul>
+                            <ul class="mobile-item"><a href="#portfolio">portfolio</a></ul>
+                            <ul class="mobile-item"><a href="#contact">Contact</a></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="container" id="home">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-6 text-white">
+                        <div class="greet" data-aos="fade-right">
+                            <h2 class="greets">Hi there! i'm</h2>
+                            <span class="nama">Herbie Funome</span>
+                            <h2 class="jobs">A Front end engginer | web designer</h2>
+                            <div class="buttons py-3" data-aos="fade-right">
+                                <button class="btn btn-outline-info pe-5 ps-5">Hire me</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 text-white custom-img1" data-aos="fade-left">
+                        <img src="./images/profil.png" alt="Profile" class="img-fluid rounded-circle">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about mt-5 py-5" id="about">
+            <div class="container">
+                <p class="aboutme text-light text-center fs-1"> About Me</p>
+                <div class="row">
+                    <div class="col-12 col-lg-6 custom-img text-sm-center" data-aos="fade-right">
+                        <img src="./images/profil-modified.png" alt="profil-modified">
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <div class="text-profile text-light">
+                            <p>I'm Herbie Funome. I am Indonesian and live in Yogyakarta.
+                                I'm a budding front end website developer who can and will continue to learn how to make
+                                a flawless website with HTML, CSS, JavaScript, React, and more.
+                                I enjoy learning about technology and want to continue to deepen my knowledge in this
+                                field.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="skils" id="skils mt-5 py-5" data-aos="zoom-in-down">
+            <div class="container">
+                <p class="skil text-center fw-bold fs-2 text-light">Skils</p>
+                <div class="row">
+                    <div class="skils d-flex justify-content-center">
+                        <div class="img-skils me-5">
+                            <img src="./images/html.png" alt="html">
+                        </div>
+                        <div class="img-skils me-5">
+                            <img src="./images/css.png" alt="html">
+                        </div>
+                        <div class="img-skils me-5">
+                            <img src="./images/javascript.png" alt="html">
+                        </div>
+                        <div class="img-skils me-5">
+                            <img src="./images/bootstrap.png" alt="html">
+                        </div>
+                        <div class="img-skils me-5">
+                            <img src="./images/react.png" alt="html">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio mt-5 py-5" id="portfolio">
+            <p class="portfolios text-light fw-bold fs-2 text-center">Portofolio</p>
+            <div class="port-img">
+                <p class="fw-bold text-center fs-1 text-light">COMING SOON!!</p>
+            </div>
+        </section>
+        <section class="contact mt-5 py-5" id="contact">
+            <p class="contact-me fw-bold fs-2 text-center text-light">Contact</p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <div class="contact-form text-light">
+                            <form action="">
+                                <label for="fname">First Name</label>
+                                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                                <label for="lname">Last Name</label>
+                                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                                <label for="country">Email</label>
+                                <input type="email" id="lname" name="email" placeholder="Your email..">
+                                <label for="subject">Subject</label>
+                                <textarea id="subject" name="subject" placeholder="Write something.."
+                                    style="height:170px"></textarea>
+                                <button class="btn btn-outline-info" type="submit" value="Submit">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6" data-aos="zoom-in">
+                        <p class="opsi m-5 text-center fs-3 fw-bold text-light">You can contact and folow me</p>
+                        <div class="media-icon">
+                            <div class="icon-img">
+                                <a href="" class="link-icon"><img src="./icon/whatsapp.png" alt="whatsapp"
+                                        class="p-2">whatsapp me</a>
+                            </div>
+                            <div class="icon-img">
+                                <a href="" class="link-icon"><img src="./icon/email.png" alt="whatsapp"
+                                        class="p-2">xxxxsample@gmail.com</a>
+                            </div>
+                            <div class="icon-img">
+                                <a href="" class="link-icon"><img src="./icon/messenger.png" alt="whatsapp"
+                                        class="p-2">text me on</a>
+                            </div>
+                            <div class="icon-img">
+                                <a href="" class="link-icon"><img src="./icon/instagram.png" alt="whatsapp"
+                                        class="p-2">follow me on</a>
+                            </div>
+                            <div class="icon-img">
+                                <a href="" class="link-icon"><img src="./icon/linkedin.png" alt="whatsapp"
+                                        class="p-2">Follow me my</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer class="bg-dark text-center text-white">
+        <p class="py-2">Copyright &copy; 2022 HerbieFunome</p>
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script>
+        gsap.from('.navbar', { duration: 1, y: -100, opacity: 0, ease: 'bounce' });
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
